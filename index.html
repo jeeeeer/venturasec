@@ -125,6 +125,8 @@ div.w3-sidebar {
 </head>
 
 <body>
+
+<!-- HEADER -->
 <div class="w3-header w3-black">
     <div class="container" style="height:100px">
         <img src="splash.png" style="float:left"/>
@@ -132,9 +134,13 @@ div.w3-sidebar {
         <button class="w3-button w3-circle w3-xlarge w3-black" style="float:right;margin:20px 20px 0px 0px" onclick="toggleDark()"><i class="fa-solid fa-circle-half-stroke"></i></button>
     </div>
 </div>
+
+<!-- FOOTER -->
 <div class="footer">
     <p class="footer">this is my foot haha</p>
 </div>
+
+<!-- SIDEBAR -->
 <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left w3-border" style="width:300px;margin-top:-1px" id="Sidebar">
     <button class="w3-bar-item w3-button w3-large w3-hide-large w3-border-bottom" onclick="sidebarClose()">Close &times;</button>
     <a href="#" class="w3-bar-item w3-button w3-border-bottom">
@@ -173,6 +179,7 @@ div.w3-sidebar {
     </a>
 </div>
 
+<!-- MAIN PANEL -->
 <div class="w3-main" style="margin-left:300px">
     <button class="w3-button w3-xlarge w3-hide-large" onclick="sidebarOpen()">&#9776;</button>
     <div class="flex-container" style="display:flex;flex-direction:row;flex-wrap:wrap;align-items:stretch;justify-content:space-between;">
@@ -191,6 +198,7 @@ div.w3-sidebar {
     </div>
 </div>
 
+<!-- SCRIPTS -->
 <script>
 function sidebarOpen() {
     document.getElementById("Sidebar").style.display = "block";
